@@ -57,8 +57,14 @@ body{
     cursor: not-allowed;
 }
 
+.board.x .cell:hover{
+    
+}
+
 .cell.x::before,
-.cell.x::after
+.cell.x::after,
+.board.x .cell:hover ::before,
+.board.x .cell:hover ::after
 {
 content: '';
 position: absolute;
